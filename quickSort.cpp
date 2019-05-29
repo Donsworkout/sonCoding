@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -8,6 +9,7 @@ void swap(int* a, int* b){
 }
 
 // j 라는 친구가 서서히 먹어가는 형태임
+// 피벗에 해당하는 친구가 더 크면 j를 먼저 올려서 스왑시키는 것이 포인트
 void quickSort(int start, int end, int * arr){
 	if(start >= end) return;
 	int i = start + 1; int j = start; int pivot = start;
@@ -29,3 +31,4 @@ int main(void){
 		cout << arr[i] << " ";
 	}
 }
+*/
